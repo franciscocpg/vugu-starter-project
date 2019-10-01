@@ -1,0 +1,8 @@
+<div class="my-first-vugu-comp">
+    <button @click="data.Toggle()">Test</button>
+    <div vg-if="data.Show">I am here!</div>
+</div>
+
+<style>
+.my-first-vugu-comp { background: #eee; }
+</style>
